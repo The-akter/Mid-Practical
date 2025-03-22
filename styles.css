@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #8697af;
+    color: #333;
+}
+
+/* Modern Neumorphic Navigation Bar */
+header {
+    background: #8697af;
+    padding: 20px 0;
+}
+
+nav {
+    background: #ecf0f3;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: inset 8px 8px 16px #c3c7cc, inset -8px -8px 16px #ffffff;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #222;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #ecf0f3;
+    box-shadow: 5px 5px 10px #c3c7cc, -5px -5px 10px #ffffff;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    background: #d6d9e0;
+    color: #3498db;
+}
+
+/* Home Page Content */
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.home-content {
+    text-align: center;
+}
+
+.home-image img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #8094aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #a29ccf;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
